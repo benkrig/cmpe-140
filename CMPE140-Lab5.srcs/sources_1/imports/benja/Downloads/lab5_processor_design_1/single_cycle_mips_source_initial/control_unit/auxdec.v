@@ -24,9 +24,9 @@ module auxdec (
                 6'b00_0000: ctrl = 7'b100_00_0_0; // SLL
                 6'b00_0010: ctrl = 7'b101_00_0_0; // SRL
                 6'b00_1000: ctrl = 7'b011_00_0_1; // JR
-                6'b01_0000: ctrl = 7'bxxx_10_1_0; // mfhi
-                6'b01_1010: ctrl = 7'bxxx_01_1_0; // mflo
-                6'b01_1001: ctrl = 7'bxxx_00_0_0; // multu
+                6'b01_0000: ctrl = 7'bxxx_10_0_0; // mfhi
+                6'b01_1010: ctrl = 7'bxxx_01_0_0; // mflo
+                6'b01_1001: ctrl = 7'bxxx_00_1_0; // multu
                 default:    ctrl = 7'bxxx;
             endcase
         endcase

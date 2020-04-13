@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../CMPE140-Lab5.srcs/sources_1/imports/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/adder.v" \
+"../../../../../CMPE140-Lab5.srcs/sources_1/imports/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/alu.v" \
+"../../../../../CMPE140-Lab5.srcs/sources_1/imports/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/control_unit/auxdec.v" \
+"../../../../../CMPE140-Lab5.srcs/sources_1/imports/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/control_unit/controlunit.v" \
+"../../../../../CMPE140-Lab5.srcs/sources_1/imports/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/datapath.v" \
+"../../../../../CMPE140-Lab5.srcs/sources_1/imports/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/memory/dmem.v" \
+"../../../../../CMPE140-Lab5.srcs/sources_1/imports/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/dreg.v" \
+"../../../../../CMPE140-Lab5.srcs/sources_1/new/hl_reg.v" \
+"../../../../../CMPE140-Lab5.srcs/sources_1/imports/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/memory/imem.v" \
+"../../../../../CMPE140-Lab5.srcs/sources_1/imports/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/control_unit/maindec.v" \
+"../../../../../CMPE140-Lab5.srcs/sources_1/imports/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/mips/mips.v" \
+"../../../../../CMPE140-Lab5.srcs/sources_1/imports/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/mips/mips_top.v" \
+"../../../../../CMPE140-Lab5.srcs/sources_1/new/multiplier.v" \
+"../../../../../CMPE140-Lab5.srcs/sources_1/imports/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/mux2.v" \
+"../../../../../CMPE140-Lab5.srcs/sources_1/new/mux4.v" \
+"../../../../../CMPE140-Lab5.srcs/sources_1/imports/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/regfile.v" \
+"../../../../../CMPE140-Lab5.srcs/sources_1/imports/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/signext.v" \
+"../../../../CMPE140-Lab5.srcs/sim_1/imports/testbench/tb_mips_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
