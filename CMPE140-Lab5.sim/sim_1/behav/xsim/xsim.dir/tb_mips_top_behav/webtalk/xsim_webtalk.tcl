@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir C:/Users/benja/CMPE140/CMPE140-Lab5/CMPE140-Lab5.sim/sim_1/behav/xsim/xsim.dir/tb_mips_top_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Mon Apr 13 08:24:58 2020" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Mon Apr 13 08:46:08 2020" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2018.3 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2405991" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "18b1ad9e-2caf-474c-b641-b027462e536d" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "8fe66ed1ad624b21812be9c6317ed177" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "18" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "20" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Microsoft Windows 8 or later , 64-bit" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "Intel(R) Core(TM) i7-3667U CPU @ 2.00GHz" -context "user_environment"
@@ -36,7 +36,7 @@ webtalk_add_data -client xsim -key Total_Nets -value "0" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Processes -value "60" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Instances -value "27" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Xilinx_HDL_Libraries_Used -value "secureip unimacro_ver unisims_ver " -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Time -value "0.90_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Memory -value "40876_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 3323925919 -regid "" -xml C:/Users/benja/CMPE140/CMPE140-Lab5/CMPE140-Lab5.sim/sim_1/behav/xsim/xsim.dir/tb_mips_top_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/benja/CMPE140/CMPE140-Lab5/CMPE140-Lab5.sim/sim_1/behav/xsim/xsim.dir/tb_mips_top_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/benja/CMPE140/CMPE140-Lab5/CMPE140-Lab5.sim/sim_1/behav/xsim/xsim.dir/tb_mips_top_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Compiler_Time -value "0.95_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Compiler_Memory -value "40928_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 4158228346 -regid "" -xml C:/Users/benja/CMPE140/CMPE140-Lab5/CMPE140-Lab5.sim/sim_1/behav/xsim/xsim.dir/tb_mips_top_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/benja/CMPE140/CMPE140-Lab5/CMPE140-Lab5.sim/sim_1/behav/xsim/xsim.dir/tb_mips_top_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/benja/CMPE140/CMPE140-Lab5/CMPE140-Lab5.sim/sim_1/behav/xsim/xsim.dir/tb_mips_top_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate

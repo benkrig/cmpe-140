@@ -4,8 +4,8 @@ Dec  7 2018
 00:33:28
 C:/Users/benja/CMPE140/CMPE140-Lab5/CMPE140-Lab5.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
 C:/Users/benja/CMPE140/CMPE140-Lab5/CMPE140-Lab5.srcs/sources_1/new/hl_reg.v,1586787221,verilog,,C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/memory/imem.v,,hl_reg,,,,,,,,
-,,,,C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/mux2.v,,multiplier,,,,,,,,
-,,,,C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/regfile.v,,mux4,,,,,,,,
+C:/Users/benja/CMPE140/CMPE140-Lab5/CMPE140-Lab5.srcs/sources_1/new/multiplier.v,1586786056,verilog,,C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/mux2.v,,multiplier,,,,,,,,
+C:/Users/benja/CMPE140/CMPE140-Lab5/CMPE140-Lab5.srcs/sources_1/new/mux4.v,1586787346,verilog,,C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/regfile.v,,mux4,,,,,,,,
 C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/control_unit/auxdec.v,1586790408,verilog,,C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/control_unit/controlunit.v,,auxdec,,,,,,,,
 C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/control_unit/controlunit.v,1586790275,verilog,,C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/datapath.v,,controlunit,,,,,,,,
 C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/control_unit/maindec.v,1586790368,verilog,,C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/mips/mips.v,,maindec,,,,,,,,
@@ -20,4 +20,4 @@ C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initia
 C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/memory/imem.v,1586791161,verilog,,C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/control_unit/maindec.v,,imem,,,,,,,,
 C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/mips/mips.v,1586790778,verilog,,C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/mips/mips_top.v,,mips,,,,,,,,
 C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/mips/mips_top.v,1583763453,verilog,,C:/Users/benja/CMPE140/CMPE140-Lab5/CMPE140-Lab5.srcs/sources_1/new/multiplier.v,,mips_top,,,,,,,,
-C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/testbench/tb_mips_top.v,1583779453,verilog,,,,tb_mips_top,,,,,,,,
+C:/Users/benja/Downloads/lab5_processor_design_1/single_cycle_mips_source_initial/testbench/tb_mips_top.v,1586791489,verilog,,,,tb_mips_top,,,,,,,,
